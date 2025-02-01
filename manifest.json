@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "imdb to vidsrc",
+    "version": "1.0",
+    "description": "Open any movie or series from its imdb page",
+    "icons": {
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png"
+    },
+    "permissions": ["tabs"],
+    "host_permissions": ["*://www.imdb.com/*"],
+    "action": {
+        "default_popup": "popup/popup.html"
+    }
+}

@@ -1,0 +1,25 @@
+html,
+body {
+    width: 200px;
+    background-color: rgb(43, 47, 57);
+    text-align: center;
+    border-radius: 10px;
+}
+.title {
+    color: azure;
+    color: rgb(107, 107, 255);
+}
+.imdb {
+    color: rgb(255, 255, 77);
+}
+#btn {
+    border: none;
+    background-color: azure;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+#error {
+    display: none;
+}
